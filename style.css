@@ -14,22 +14,28 @@ body {
     width: 300px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
     border-radius: 20px;
     text-align: center;
 }
 
 .imageQR{
+    width: 100%;
     height: auto;
     border-radius: 12px;
 }
 
 .title{
+    width: 95%;
     font-weight: 700;
     color: hsl(218, 44%, 22%);
+    margin-bottom: 10px;
 }
 
 .paragraph{
+    width: 85%;
     font-weight: 400;
     color: hsl(216, 15%, 48%);
     font-size: 15px;
